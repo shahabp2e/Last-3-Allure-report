@@ -1,4 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"Verify Google homepage title contains 'Google'","3662","googleSearchTest()","","Thu Sep 04 10:30:55 IST 2025","passed","Thu Sep 04 10:30:59 IST 2025","","SeleniumTest","SeleniumTest","googleSearchTest"
-"Verify Example.com title matches 'Example Domain'","2289","exampleDotComTest()","","Thu Sep 04 10:30:59 IST 2025","passed","Thu Sep 04 10:31:01 IST 2025","","SeleniumTest","SeleniumTest","exampleDotComTest"
-"","3858","googleTitleTest()","","Thu Sep 04 10:44:39 IST 2025","passed","Thu Sep 04 10:44:43 IST 2025","","SeleniumTest","SeleniumTest","googleTitleTest"

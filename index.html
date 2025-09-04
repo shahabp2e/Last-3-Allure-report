@@ -1,34 +1,82 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="en">
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>Allure Report</title>
-    <link rel="icon" href="favicon.ico">
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="stylesheet" type="text/css" href="plugin/screen-diff/styles.css">
+  <meta charset="UTF-8">
+  <title>Allure Test Reports</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #9bc5e0;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    .latest {
+      text-align: center;
+      margin: 20px;
+    }
+    .latest a {
+      display: inline-block;
+      padding: 12px 20px;
+      background: #28a745;
+      color: #fff;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .latest a:hover {
+      background: #218838;
+      transform: scale(1.05);
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      max-width: 600px;
+      margin: 30px auto;
+    }
+    li {
+      margin: 15px 0;
+    }
+    a {
+      text-decoration: none;
+      display: block;
+      padding: 15px;
+      border-radius: 8px;
+      background: #fff;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      color: #007bff;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+    a:hover {
+      background: #007bff;
+      color: #fff;
+      transform: translateY(-3px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      color: #666;
+      font-size: 14px;
+    }
+  </style>
 </head>
 <body>
-    <div id="alert"></div>
-    <div id="content">
-        <span class="spinner">
-            <span class="spinner__circle"></span>
-        </span>
-    </div>
-    <div id="popup"></div>
-    <script src="app.js"></script>
-    <script src="plugin/behaviors/index.js"></script>
-    <script src="plugin/packages/index.js"></script>
-    <script src="plugin/screen-diff/index.js"></script>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FVWC4GKEYS"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-FVWC4GKEYS', {
-          'allureVersion': '2.34.1',
-          'reportUuid': '76eb012c-8f45-4a23-99db-7fdae70186b9',
-          'single_file': false
-        });
-    </script>
+  <h1>🚀 Last 3 Allure Reports</h1>
+  <div class="latest">
+    <a href="2025-09-04-10:57:29/index.html">👉 View Latest Report</a>
+  </div>
+  <ul>
+    <li><a href="widgets/index.html">📊 Report widgets</a></li>
+    <li><a href="plugin/index.html">📊 Report plugin</a></li>
+  </ul>
+  <footer>
+    Generated automatically by Jenkins & Allure ✨
+  </footer>
 </body>
 </html>
