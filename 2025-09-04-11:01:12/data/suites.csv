@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","188","exampleDotComTest()","","Wed Sep 03 23:31:32 IST 2025","broken","Wed Sep 03 23:31:33 IST 2025","","SeleniumTest","SeleniumTest","exampleDotComTest"
+"","498","googleSearchTest()","","Wed Sep 03 23:31:32 IST 2025","broken","Wed Sep 03 23:31:32 IST 2025","","SeleniumTest","SeleniumTest","googleSearchTest"
+"","9063","googleTitleTest()","","Thu Sep 04 11:00:56 IST 2025","passed","Thu Sep 04 11:01:05 IST 2025","","SeleniumTest","SeleniumTest","googleTitleTest"
